@@ -1,0 +1,22 @@
+/* Use the Inter font family for the entire page */
+body { 
+    font-family: 'Inter', sans-serif; 
+}
+
+/* Hide elements with the .hidden class */
+.hidden { 
+    display: none; 
+}
+
+/* Style for the notification bubble on the cart icon */
+.cart-item-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #ef4444; /* Corresponds to Tailwind's red-500 */
+    color: white;
+    border-radius: 9999px; /* A large value to make it a perfect circle */
+    padding: 0.1rem 0.4rem;
+    font-size: 0.75rem; /* 12px */
+    font-weight: 700;
+}
